@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1201B22553CA4B00FB6C46 /* InboxDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1201B12553CA4B00FB6C46 /* InboxDetailController.swift */; };
+		CA1201C02553D27900FB6C46 /* InboxDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1201BF2553D27900FB6C46 /* InboxDetailContent.swift */; };
+		CA1201C82554248600FB6C46 /* CoverNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1201C72554248600FB6C46 /* CoverNavigationBar.swift */; };
+		CA12021D255577A700FB6C46 /* APIAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12021C255577A700FB6C46 /* APIAccess.swift */; };
+		CA120222255587D500FB6C46 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA120221255587D500FB6C46 /* EmailViewModel.swift */; };
+		CA1202442559454F00FB6C46 /* InboxDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1202432559454F00FB6C46 /* InboxDetailViewModel.swift */; };
 		CAA9B94E2552E7AE0029B60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B94D2552E7AE0029B60F /* AppDelegate.swift */; };
 		CAA9B9502552E7AE0029B60F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B94F2552E7AE0029B60F /* SceneDelegate.swift */; };
-		CAA9B9522552E7AE0029B60F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9512552E7AE0029B60F /* ViewController.swift */; };
+		CAA9B9522552E7AE0029B60F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9512552E7AE0029B60F /* MainController.swift */; };
 		CAA9B9552552E7AE0029B60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA9B9532552E7AE0029B60F /* Main.storyboard */; };
 		CAA9B9572552E7B10029B60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA9B9562552E7B10029B60F /* Assets.xcassets */; };
 		CAA9B95A2552E7B10029B60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA9B9582552E7B10029B60F /* LaunchScreen.storyboard */; };
 		CAA9B9652552E7B10029B60F /* EmailAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9642552E7B10029B60F /* EmailAppsTests.swift */; };
 		CAA9B9702552E7B10029B60F /* EmailAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B96F2552E7B10029B60F /* EmailAppsUITests.swift */; };
+		CAA9B98C2552FE890029B60F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B98B2552FE890029B60F /* Extension.swift */; };
+		CAA9B994255305770029B60F /* EmailNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B993255305770029B60F /* EmailNavigation.swift */; };
+		CAA9B9B2255309DA0029B60F /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9B1255309DA0029B60F /* EmailCell.swift */; };
+		CAA9B9B725530C2A0029B60F /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9B625530C2A0029B60F /* Email.swift */; };
+		CAA9B9BC255326DE0029B60F /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B9BB255326DE0029B60F /* EmailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA1201B12553CA4B00FB6C46 /* InboxDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxDetailController.swift; sourceTree = "<group>"; };
+		CA1201BF2553D27900FB6C46 /* InboxDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxDetailContent.swift; sourceTree = "<group>"; };
+		CA1201C72554248600FB6C46 /* CoverNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverNavigationBar.swift; sourceTree = "<group>"; };
+		CA12021C255577A700FB6C46 /* APIAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAccess.swift; sourceTree = "<group>"; };
+		CA120221255587D500FB6C46 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		CA1202432559454F00FB6C46 /* InboxDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxDetailViewModel.swift; sourceTree = "<group>"; };
 		CAA9B94A2552E7AE0029B60F /* EmailApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA9B94D2552E7AE0029B60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAA9B94F2552E7AE0029B60F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAA9B9512552E7AE0029B60F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAA9B9512552E7AE0029B60F /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		CAA9B9542552E7AE0029B60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAA9B9562552E7B10029B60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAA9B9592552E7B10029B60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		CAA9B96B2552E7B10029B60F /* EmailAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA9B96F2552E7B10029B60F /* EmailAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAppsUITests.swift; sourceTree = "<group>"; };
 		CAA9B9712552E7B10029B60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA9B98B2552FE890029B60F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CAA9B993255305770029B60F /* EmailNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailNavigation.swift; sourceTree = "<group>"; };
+		CAA9B9B1255309DA0029B60F /* EmailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
+		CAA9B9B625530C2A0029B60F /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		CAA9B9BB255326DE0029B60F /* EmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +121,14 @@
 		CAA9B94C2552E7AE0029B60F /* EmailApps */ = {
 			isa = PBXGroup;
 			children = (
-				CAA9B94D2552E7AE0029B60F /* AppDelegate.swift */,
+				CAA9B9832552E86A0029B60F /* Model */,
+				CAA9B9842552E8800029B60F /* View */,
+				CAA9B9852552E8920029B60F /* ViewModel */,
+				CAA9B9862552E8990029B60F /* Controller */,
+				CAA9B98A2552FDA90029B60F /* Utils */,
 				CAA9B94F2552E7AE0029B60F /* SceneDelegate.swift */,
-				CAA9B9512552E7AE0029B60F /* ViewController.swift */,
 				CAA9B9532552E7AE0029B60F /* Main.storyboard */,
+				CAA9B94D2552E7AE0029B60F /* AppDelegate.swift */,
 				CAA9B9562552E7B10029B60F /* Assets.xcassets */,
 				CAA9B9582552E7B10029B60F /* LaunchScreen.storyboard */,
 				CAA9B95B2552E7B10029B60F /* Info.plist */,
@@ -126,6 +152,53 @@
 				CAA9B9712552E7B10029B60F /* Info.plist */,
 			);
 			path = EmailAppsUITests;
+			sourceTree = "<group>";
+		};
+		CAA9B9832552E86A0029B60F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9B9B625530C2A0029B60F /* Email.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAA9B9842552E8800029B60F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9B993255305770029B60F /* EmailNavigation.swift */,
+				CAA9B9B1255309DA0029B60F /* EmailCell.swift */,
+				CA1201BF2553D27900FB6C46 /* InboxDetailContent.swift */,
+				CA1201C72554248600FB6C46 /* CoverNavigationBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAA9B9852552E8920029B60F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA120221255587D500FB6C46 /* EmailViewModel.swift */,
+				CA1202432559454F00FB6C46 /* InboxDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAA9B9862552E8990029B60F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9B9512552E7AE0029B60F /* MainController.swift */,
+				CAA9B9BB255326DE0029B60F /* EmailController.swift */,
+				CA1201B12553CA4B00FB6C46 /* InboxDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAA9B98A2552FDA90029B60F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9B98B2552FE890029B60F /* Extension.swift */,
+				CA12021C255577A700FB6C46 /* APIAccess.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +331,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA9B9522552E7AE0029B60F /* ViewController.swift in Sources */,
+				CAA9B9522552E7AE0029B60F /* MainController.swift in Sources */,
+				CA120222255587D500FB6C46 /* EmailViewModel.swift in Sources */,
+				CAA9B9B725530C2A0029B60F /* Email.swift in Sources */,
 				CAA9B94E2552E7AE0029B60F /* AppDelegate.swift in Sources */,
+				CA1201C82554248600FB6C46 /* CoverNavigationBar.swift in Sources */,
+				CAA9B9BC255326DE0029B60F /* EmailController.swift in Sources */,
+				CA1202442559454F00FB6C46 /* InboxDetailViewModel.swift in Sources */,
 				CAA9B9502552E7AE0029B60F /* SceneDelegate.swift in Sources */,
+				CAA9B994255305770029B60F /* EmailNavigation.swift in Sources */,
+				CAA9B9B2255309DA0029B60F /* EmailCell.swift in Sources */,
+				CA1201C02553D27900FB6C46 /* InboxDetailContent.swift in Sources */,
+				CA1201B22553CA4B00FB6C46 /* InboxDetailController.swift in Sources */,
+				CA12021D255577A700FB6C46 /* APIAccess.swift in Sources */,
+				CAA9B98C2552FE890029B60F /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
